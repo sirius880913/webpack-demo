@@ -1,0 +1,22 @@
+{
+  "name": "webpack-demo",
+  "version": "0.0.1",
+  "description": "webpack demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirius880913/webpack-demo.git"
+  },
+  "author": "sirius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirius880913/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/sirius880913/webpack-demo#readme",
+  "devDependencies": {
+    "webpack": "^3.11.0"
+  }
+}
