@@ -1,2 +1,2 @@
 # webpack-demo
-webpack-demo
+npm run dev
