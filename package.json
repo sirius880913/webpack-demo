@@ -2,9 +2,10 @@
   "name": "webpack-demo",
   "version": "0.0.1",
   "description": "webpack demo",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/sirius880913/webpack-demo#readme",
   "devDependencies": {
+    "css-loader": "^0.28.10",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
     "webpack": "^3.11.0"
   }
 }
