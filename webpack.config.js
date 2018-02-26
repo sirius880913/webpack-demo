@@ -8,7 +8,8 @@ module.exports = {
     filename: 'app.bundle.js'
   },
   devServer: {
-    port: 8090
+    port: 8090,
+    open: true
   },
   plugins: [
     new HtmlWebpackPlugin({
