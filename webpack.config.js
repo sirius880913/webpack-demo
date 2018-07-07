@@ -73,7 +73,7 @@ module.exports = {
       excludeChunks: ['test']
     }),
     new HtmlWebpackPlugin({
-      template: './src/test/index.html',
+      template: './src/pages/test/index.html',
       filename: 'test.html',
       minify: {
         collapseWhitespace: true
